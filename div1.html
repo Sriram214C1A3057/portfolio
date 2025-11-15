@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sriram Portfolio</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="div1.css" />
+</head>
+
+<body>
+
+  <!-- ================= NAVBAR ================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">Sriram V</a>
+
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ================= HERO SECTION ================== -->
+  <section class="hero" id="home">
+
+    <!-- gradient bg -->
+    <div class="hero-bg"></div>
+
+    <!-- particles -->
+    <div class="particles"></div>
+
+    <div class="container hero-content">
+
+      <!-- Left Text -->
+      <div class="hero-text">
+        <h1>Hi, I'm <span class="gradient-text">Sriram V</span></h1>
+
+        <h3 class="subtitle">
+          AI & Data Science Graduate | Java & MySQL Developer
+        </h3>
+
+        <p class="description">
+          Passionate about building innovative software solutions that solve real-world problems.
+          Specializing in backend development with Java, MySQL, and .NET technologies.
+        </p>
+
+        <div class="hero-buttons">
+          <button class="btn-primary" onclick="scrollToSection('projects')">
+            View My Work ↓
+          </button>
+
+          <button class="btn-outline" onclick="scrollToSection('contact')">
+            Get In Touch
+          </button>
+        </div>
+      </div>
+
+      <!-- Right Image -->
+      <div class="hero-image">
+        <div class="image-glow"></div>
+        <img src="myprofile.png" alt="Sriram V" />
+      </div>
+
+    </div>
+
+    <!-- scroll icon -->
+    <div class="scroll-indicator">↓</div>
+  </section>
+
+  <script src="div1.js"></script>
+</body>
+</html>
+
+<!-- ================= ABOUT SECTION ================== -->
+ 
+<section id="about" class="about-section">
+  <div class="container">
+
+    <h2 class="section-title">
+      About <span class="highlight">Me</span>
+    </h2>
+
+    <div class="about-card">
+      <p class="about-text">
+        I'm a passionate Computer Science graduate specializing in
+        <span class="blue-text">Artificial Intelligence & Data Science</span>.
+        I love solving real-world problems through innovative software solutions.
+        With hands-on experience in Java, MySQL, .NET, Angular, HTML, CSS, and JavaScript,
+        I'm eager to contribute to impactful technology projects that make a difference.
+      </p>
+
+      <div class="skills-grid">
+
+        <!-- Java -->
+        <div class="skill-box">
+          <img src="java1.png" class="skill-icon" />
+          <h3>Java</h3>
+        </div>
+
+        <!-- MySQL -->
+        <div class="skill-box">
+          <img src="mysql.png" class="skill-icon" />
+          <h3>MySQL</h3>
+        </div>
+
+        <!-- .NET -->
+        <div class="skill-box">
+          <img src="dotnet.png" class="skill-icon" />
+          <h3>.NET</h3>
+        </div>
+
+        <!-- Angular -->
+        <div class="skill-box">
+          <img src="angular.png" class="skill-icon" />
+          <h3>Angular</h3>
+        </div>
+
+        <!-- HTML -->
+        <div class="skill-box">
+          <img src="html.png" class="skill-icon" />
+          <h3>HTML</h3>
+        </div>
+
+        <!-- CSS -->
+        <div class="skill-box">
+          <img src="css.png" class="skill-icon" />
+          <h3>CSS</h3>
+        </div>
+
+        <!-- JavaScript -->
+        <div class="skill-box">
+          <img src="javascript.png" class="skill-icon" />
+          <h3>JavaScript</h3>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= SKILLS SECTION ================= -->
+<section id="skills" class="skills-section">
+    <div class="skills-container">
+        <h2 class="skills-title">
+            Technical <span class="gradient-text">Skills</span>
+        </h2>
+
+        <div class="skill-group">
+            <div class="skill">
+                <div class="skill-header">
+                    <span class="skill-name">Java</span>
+                    <span class="skill-level">90%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-level="90"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-header">
+                    <span class="skill-name">MySQL</span>
+                    <span class="skill-level">85%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-level="85"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-header">
+                    <span class="skill-name">HTML</span>
+                    <span class="skill-level">85%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-level="85"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-header">
+                    <span class="skill-name">CSS</span>
+                    <span class="skill-level">80%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-level="85"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-header">
+                    <span class="skill-name">.NET Core</span>
+                    <span class="skill-level">70%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-level="75"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-header">
+                    <span class="skill-name">Angular</span>
+                    <span class="skill-level">75%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-level="80"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-header">
+                    <span class="skill-name">JavaScript</span>
+                    <span class="skill-level">85%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-level="85"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-header">
+                    <span class="skill-name">JDBC & Database Management</span>
+                    <span class="skill-level">80%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-fill" data-level="80"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =================PROJECTS SECTION ================= -->
+
+
+<section id="projects" class="projects-section">
+  <div class="projects-container">
+
+    <div class="projects-content animate-hidden" id="projectsContent">
+      <h2 class="projects-title">Featured <span>Project</span></h2>
+
+      <div class="project-card">
+        <div class="project-line"></div>
+
+        <div class="project-header">
+          <h3 class="project-name">Room Booking System</h3>
+          <p class="project-desc">A comprehensive console-based room reservation system</p>
+        </div>
+
+        <div class="project-body">
+          <p class="project-info">
+            A robust console-based system that enables efficient room reservations with secure login authentication,
+            comprehensive CRUD operations, and intelligent booking validation using MySQL database.
+            Built with Java and JDBC for seamless database connectivity.
+          </p>
+
+          <div class="tech-grid">
+            <div class="tech-item">
+              <svg width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M8 3h8v2H8zm0 4h8v2H8zm0 4h5v2H8zm0 4h5v2H8z"/></svg>
+              <div>
+                <h4>Java</h4>
+                <p>Core Language</p>
+              </div>
+            </div>
+
+            <div class="tech-item">
+              <svg width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C7 2 3 4 3 7v10c0 3 4 5 9 5s9-2 9-5V7c0-3-4-5-9-5zm7 15c0 2-3 3.5-7 3.5S5 19 5 17V9c2 1.5 5 2 7 2s5-.5 7-2zm-7-6c-3.9 0-7-1.3-7-3s3.1-3 7-3 7 1.3 7 3-3.1 3-7 3z"/></svg>
+              <div>
+                <h4>MySQL</h4>
+                <p>Database</p>
+              </div>
+            </div>
+
+            <div class="tech-item">
+              <svg width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M12 1a5 5 0 0 0-5 5v3H5v14h14V9h-2V6a5 5 0 0 0-5-5m0 2a3 3 0 0 1 3 3v3H9V6a3 3 0 0 1 3-3"/></svg>
+              <div>
+                <h4>JDBC</h4>
+                <p>Connectivity</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-buttons">
+            <button class="btn-primary">View Code</button>
+            <button class="btn-outline">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- =================EDUCATION SECTION ================= -->
+
+<section id="education" class="education-section">
+    <div class="edu-container">
+
+        <div class="edu-wrapper fade-trigger">
+            <h2 class="edu-title">
+                Educational <span class="gradient-text">Journey</span>
+            </h2>
+
+            <div class="timeline">
+                <!-- 1 -->
+                <div class="timeline-item left" style="animation-delay: 0s;">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="card-header">
+                            <img src="education.png" class="edu-icon">
+                            <span class="year">2025</span>
+                        </div>
+                        <h3 class="degree">B.E. in Artificial Intelligence & Data Science</h3>
+                        <p class="institution">Sreerama Engineering College</p>
+                        <p class="score">7.71 CGPA</p>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="timeline-item right" style="animation-delay: 0.2s;">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="card-header">
+                            <img src="education.png" class="edu-icon">
+                            <span class="year">2021</span>
+                        </div>
+                        <h3 class="degree">Intermediate</h3>
+                        <p class="institution">Rayalaseema Junior College</p>
+                        <p class="score">94.3%</p>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="timeline-item left" style="animation-delay: 0.4s;">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="card-header">
+                            <img src="education.png" class="edu-icon">
+                            <span class="year">2019</span>
+                        </div>
+                        <h3 class="degree">Secondary School</h3>
+                        <p class="institution">ZPHS Peddakannali</p>
+                        <p class="score">9.0 CGPA</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- =================CERTIFICATION SESSTION ================= -->
+
+<section id="certifications" class="cert-section">
+  <div class="cert-container">
+    <div class="cert-content">
+      <h2 class="cert-heading"><span class="gradient-text">Certifications</span></h2>
+
+      <div class="cert-card">
+        <div class="cert-icon-container">
+          <!-- Award Icon SVG (replaces lucide-react) -->
+          <svg class="cert-icon" fill="none" stroke="currentColor" stroke-width="1.5"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M12 8.25l.917 1.856 2.053.299-1.485 1.448.35 2.04L12 13.5l-1.835.967.35-2.04-1.485-1.448 
+              2.053-.299L12 8.25z" />
+            <circle cx="12" cy="8" r="4"></circle>
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M7 14.5v6l5-2 5 2v-6" />
+          </svg>
+        </div>
+
+        <div class="cert-text">
+          <h3 class="cert-title">SQL & Java Training</h3>
+          <p class="cert-org">Accord Info Matrix</p>
+          <p class="cert-desc">
+            Comprehensive training program covering advanced SQL database 
+            management and Java programming fundamentals, including hands-on 
+            projects and real-world application development.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+<!-- ================== CONTACT SESSTION ================= -->
+
+<section id="contact" class="contact-section">
+  <div class="container">
+    <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+
+    <div class="grid">
+      <!-- Contact Info -->
+      <div class="info-section">
+        <div class="card">
+          <h3>Contact Information</h3>
+          <div class="card-content">
+            <a href="tel:+917842730970" class="info-item">
+              <span class="icon">📞</span>
+              <span>+91 78427 30970</span>
+            </a>
+            <a href="mailto:sriramsriramskht@gmail.com" class="info-item">
+              <span class="icon">📧</span>
+              <span>sriramsriramskht@gmail.com</span>
+            </a>
+            <div class="info-item">
+              <span class="icon">📍</span>
+              <span>Madhavaram, Chennai</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Follow Me</h3>
+          <div class="card-content social-buttons">
+            <a href="https://www.linkedin.com/in/sriram562002" class="social-btn">🔗 LinkedIn</a>
+            <a href="https://github.com/Sriram214C1A3057" class="social-btn">🐙 GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="card">
+        <h3>Send a Message</h3>
+        <form id="contactForm" class="card-content">
+          <input type="text" id="name" placeholder="Your Name" maxlength="100" required />
+          <input type="email" id="email" placeholder="Your Email" maxlength="255" required />
+          <textarea id="message" placeholder="Your Message" maxlength="1000" required></textarea>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ================== FOOTER SESSTION ================= -->
+
+<footer class="footer">
+  <div class="footer-container">
+    
+    <!-- Navigation Links -->
+    <nav class="footer-nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Download Button -->
+    <div class="footer-actions">
+      <button class="download-btn" onclick="downloadCV()">Download CV</button>
+    </div>
+
+    <!-- Credits -->
+    <p class="footer-text">
+      Designed & developed by
+       <span class="gradient-text">Sriram V</span>
+    </p>
+
+    <p class="footer-copy">
+      © <span id="year"></span> All rights reserved.
+    </p>
+
+  </div>
+</footer>
+
+
+
+
+
+
