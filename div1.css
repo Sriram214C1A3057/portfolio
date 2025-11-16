@@ -904,6 +904,91 @@ body {
   transform: translateY(0) !important;
   transition: opacity 0.6s ease, transform 0.6s ease;
 }
+/* ----------------------------- */
+/* 📱 MOBILE RESPONSIVE VERSION */
+/* ----------------------------- */
+
+@media (max-width: 768px) {
+
+    /* Heading smaller */
+    .edu-title {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+    /* Remove center line from timeline */
+    .timeline::before {
+        left: 0;
+        display: none;
+    }
+
+    /* Timeline items full width */
+    .timeline-item {
+        width: 100%;
+        padding: 20px 0;
+        text-align: left !important;
+        transform: translateY(40px);
+    }
+
+    /* Remove left & right split */
+    .timeline-item.left,
+    .timeline-item.right {
+        left: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* Card full width */
+    .timeline-card {
+        width: 100%;
+        padding: 20px;
+    }
+
+    /* Dot position fixed for mobile */
+    .timeline-dot {
+        left: -10px;       /* small dot left of the card */
+        top: 25px;
+    }
+
+    /* Degree title smaller */
+    .degree {
+        font-size: 20px;
+    }
+
+    .institution {
+        font-size: 16px;
+    }
+
+    .score {
+        font-size: 16px;
+    }
+}
+
+/* EXTRA SMALL (Phones < 480px) */
+@media (max-width: 480px) {
+
+    .edu-title {
+        font-size: 28px;
+    }
+
+    .timeline-card {
+        padding: 18px;
+    }
+
+    .degree {
+        font-size: 18px;
+    }
+
+    .institution,
+    .score {
+        font-size: 15px;
+    }
+
+    .timeline-dot {
+        left: -8px;
+    }
+}
+
 
 /*======== CSS FOR CONTACT SESSION======== */
 
@@ -1121,6 +1206,7 @@ textarea {
   font-size: 13px;
   color: #6c757d;
 }
+
 
 
 
