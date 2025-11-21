@@ -145,7 +145,7 @@ document.getElementById("year").innerText = new Date().getFullYear();
 // Download CV file
 function downloadCV() {
   const link = document.createElement("a");
-  link.href = "sriramcv.pdf"; // change to your actual CV URL
+  link.href = "SRIRAM CV .pdf"; // change to your actual CV URL
   link.download = "Sriram_V_CV.pdf";
   link.click();
 }
